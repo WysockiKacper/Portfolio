@@ -1,1 +1,24 @@
-.Navber
+:root{
+    --main-color1:#018383;
+    --complementary-color1: #02a8a8;
+    --complementar-color2: #f5dea3;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(200turn,var(--complementar-color2),var(--complementary-color1),var(--main-color1));
+    font-size: large;
+}
+
+section ,header{
+    height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
